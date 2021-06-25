@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './Home';
+import RouterSetup from './routersetup';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <RouterSetup/>
   </React.StrictMode>,
   document.getElementById('root')
 );

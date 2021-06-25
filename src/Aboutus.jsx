@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import Navbar from "./Navbar";
 
-const Login = () => {
+const Aboutus = () => {
   return (
         <div>
           <Container maxWidth="sm">
@@ -12,10 +12,10 @@ const Login = () => {
               color="textPrimary"
               gutterBottom
             >
-              Home Page
+              About us page
             </Typography>
           </Container>
         </div>
   );
 };
-export default Login;
+export default Aboutus;

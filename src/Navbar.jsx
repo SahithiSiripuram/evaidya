@@ -20,6 +20,12 @@ import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import PowerSettingsNewOutlinedIcon from "@material-ui/icons/PowerSettingsNewOutlined";
 
+import Home from "./Home";
+import Aboutus from "./Aboutus";
+import Book from "./Book";
+import Login from "./Login";
+
+import { Link } from "react-router-dom";
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -69,19 +75,19 @@ function Navbar(props) {
       <div className={classes.toolbar} />
       <Divider />
       <List>
-        <ListItem button>
+        <ListItem button component={Link} to="/Home">
           <HomeOutlinedIcon />
           <ListItemText primary="Home" />
         </ListItem>
-        <ListItem button>
+        <ListItem button component={Link} to="/Aboutus">
           <InfoOutlinedIcon />
           <ListItemText primary="About Us" />
         </ListItem>
-        <ListItem button>
+        <ListItem button component={Link} to="/Book">
           <AlarmOnRoundedIcon />
           <ListItemText primary="Book Appointment" />
         </ListItem>
-        <ListItem button>
+        <ListItem button component={Link} to="/Login">
           <PowerSettingsNewOutlinedIcon />
           <ListItemText primary="Login / Logout" />
         </ListItem>
