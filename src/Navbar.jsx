@@ -20,11 +20,6 @@ import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import PowerSettingsNewOutlinedIcon from "@material-ui/icons/PowerSettingsNewOutlined";
 
-import Home from "./Home";
-import Aboutus from "./Aboutus";
-import Book from "./Book";
-import Login from "./Login";
-
 import { Link } from "react-router-dom";
 const drawerWidth = 240;
 

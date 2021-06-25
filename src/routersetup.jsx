@@ -1,18 +1,17 @@
-import React from 'react';
-import ReactDOM from "react-dom";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from './Home';
-import Aboutus from './Aboutus';
-import Book from './Book';
-import Login from './Login';
+import Home from "./Home";
+import Aboutus from "./Aboutus";
+import Book from "./Book";
+import Login from "./Login";
 
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
 
-const RouterSetup = () =>{
+const RouterSetup = () => {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -27,11 +26,11 @@ const RouterSetup = () =>{
           <Login />
         </Route>
         <Route path="*">
-          <Home/>
+          <Home />
         </Route>
       </Switch>
     </Router>
   );
-} 
+};
 
 export default RouterSetup;
