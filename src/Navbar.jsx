@@ -84,7 +84,7 @@ function Navbar(props) {
         </ListItem>
         <ListItem button component={Link} to="/Login">
           <PowerSettingsNewOutlinedIcon />
-          <ListItemText primary="Login / Logout" />
+          <ListItemText primary="Logout" />
         </ListItem>
       </List>
     </div>
