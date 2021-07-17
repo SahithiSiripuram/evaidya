@@ -18,7 +18,6 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import AlarmOnRoundedIcon from "@material-ui/icons/AlarmOnRounded";
 import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
-import PowerSettingsNewOutlinedIcon from "@material-ui/icons/PowerSettingsNewOutlined";
 
 import { Link } from "react-router-dom";
 const drawerWidth = 240;
@@ -81,10 +80,6 @@ function Navbar(props) {
         <ListItem button component={Link} to="/Book">
           <AlarmOnRoundedIcon />
           <ListItemText primary="Book Appointment" />
-        </ListItem>
-        <ListItem button component={Link} to="/Login">
-          <PowerSettingsNewOutlinedIcon />
-          <ListItemText primary="Logout" />
         </ListItem>
       </List>
     </div>
