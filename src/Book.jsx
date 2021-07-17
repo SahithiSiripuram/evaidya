@@ -126,8 +126,7 @@ function getStepContent(step) {
               <MenuItem value={37}>Urologists</MenuItem>
             </Select>
           </FormControl>
-        ),
-        
+        )
       );
     case 1:
       return "Step 3: Choose Slot";
